@@ -60,13 +60,13 @@
       { "kode": "PILIHAN1", "nama": "M.K. Pilihan I", "sks": 3, "rumpun": "inti", "prasyarat": [] },
       { "kode": "PILIHAN2", "nama": "M.K. Pilihan II", "sks": 3, "rumpun": "inti", "prasyarat": [] },
       { "kode": "PILIHAN3", "nama": "M.K. Pilihan III", "sks": 3, "rumpun": "inti", "prasyarat": [] },
-      { "kode": "KU3004", "nama": "Kerja Praktek", "sks": 2, "rumpun": "umum", "prasyarat": [] },
+      { "kode": "KU3004", "nama": "KP", "sks": 2, "rumpun": "umum", "prasyarat": [] },
       { "kode": "KU3005", "nama": "Literasi Manusia", "sks": 2, "rumpun": "umum", "prasyarat": [] }
     ],
     [
-      { "kode": "KU4001", "nama": "Studium Generale", "sks": 2, "rumpun": "inti", "prasyarat": [] },
+      { "kode": "KU4001", "nama": "SG", "sks": 2, "rumpun": "inti", "prasyarat": [] },
       { "kode": "BM4001", "nama": "Pra-Tugas Akhir", "sks": 2, "rumpun": "ta", "prasyarat": ["BM3008"] },
-      { "kode": "KU4002", "nama": "Kewarganegaraan", "sks": 2, "rumpun": "umum", "prasyarat": [] },
+      { "kode": "KU4002", "nama": "KWN", "sks": 2, "rumpun": "umum", "prasyarat": [] },
       { "kode": "KU4003", "nama": "Bahasa Inggris", "sks": 2, "rumpun": "umum", "prasyarat": [] },
       { "kode": "KU4004", "nama": "K2ML", "sks": 2, "rumpun": "umum", "prasyarat": [] },
       { "kode": "PILIHAN4", "nama": "M.K. Pilihan IV", "sks": 3, "rumpun": "inti", "prasyarat": [] },
