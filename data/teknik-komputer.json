@@ -1,0 +1,65 @@
+{
+  "prodi": "S1 Teknik Komputer",
+  "totalSks": 144,
+  "semesters": [
+    [
+      { "kode": "KU1101", "nama": "Pengantar Rekayasa & Desain", "sks": 2, "rumpun": "umum", "prasyarat": [] },
+      { "kode": "MA1101", "nama": "Matematika I", "sks": 4, "rumpun": "mipa", "prasyarat": [] },
+      { "kode": "FI1101", "nama": "Fisika Dasar I", "sks": 4, "rumpun": "mipa", "prasyarat": [] },
+      { "kode": "KU1102", "nama": "Tata Tulis Karya Ilmiah", "sks": 2, "rumpun": "umum", "prasyarat": [] },
+      { "kode": "IF1110", "nama": "Pengantar Pemrograman", "sks": 3, "rumpun": "inti", "prasyarat": [] },
+      { "kode": "KU1181", "nama": "Olahraga", "sks": 1, "rumpun": "umum", "prasyarat": [] }
+    ],
+    [
+      { "kode": "MA1201", "nama": "Matematika II", "sks": 4, "rumpun": "mipa", "prasyarat": ["MA1101"] },
+      { "kode": "FI1201", "nama": "Fisika Dasar II", "sks": 4, "rumpun": "mipa", "prasyarat": ["FI1101"] },
+      { "kode": "KI1201", "nama": "Kimia Dasar", "sks": 3, "rumpun": "mipa", "prasyarat": [] },
+      { "kode": "EL1201", "nama": "Rangkaian Elektrik", "sks": 4, "rumpun": "inti", "prasyarat": ["FI1101"] },
+      { "kode": "EL1202", "nama": "Praktikum Rangkaian Elektrik", "sks": 1, "rumpun": "inti", "prasyarat": ["EL1201"] }
+    ],
+    [
+      { "kode": "EL2101", "nama": "Sinyal dan Sistem", "sks": 3, "rumpun": "inti", "prasyarat": ["MA1201", "EL1201"] },
+      { "kode": "EL2102", "nama": "Sistem Digital", "sks": 3, "rumpun": "inti", "prasyarat": ["EL1201"] },
+      { "kode": "EL2103", "nama": "Praktikum Sistem Digital", "sks": 1, "rumpun": "inti", "prasyarat": ["EL2102"] },
+      { "kode": "IF2110", "nama": "Algoritma & Struktur Data", "sks": 4, "rumpun": "inti", "prasyarat": ["IF1110"] },
+      { "kode": "EL2104", "nama": "Elektronika", "sks": 3, "rumpun": "inti", "prasyarat": ["EL1201"] },
+      { "kode": "EL2105", "nama": "Praktikum Elektronika", "sks": 1, "rumpun": "inti", "prasyarat": ["EL2104"] }
+    ],
+    [
+      { "kode": "EL2201", "nama": "Arsitektur & Organisasi Komputer", "sks": 3, "rumpun": "inti", "prasyarat": ["EL2102"] },
+      { "kode": "EL2202", "nama": "Sistem Mikroprosesor", "sks": 3, "rumpun": "inti", "prasyarat": ["EL2102"] },
+      { "kode": "EL2203", "nama": "Praktikum Sistem Mikroprosesor", "sks": 1, "rumpun": "inti", "prasyarat": ["EL2202"] },
+      { "kode": "EL2204", "nama": "Probabilitas & Statistik", "sks": 3, "rumpun": "mipa", "prasyarat": ["MA1201"] },
+      { "kode": "IF2210", "nama": "Pemrograman Berorientasi Objek", "sks": 3, "rumpun": "inti", "prasyarat": ["IF2110"] },
+      { "kode": "KU2001", "nama": "Pancasila & Kewarganegaraan", "sks": 2, "rumpun": "umum", "prasyarat": [] }
+    ],
+    [
+      { "kode": "EL3101", "nama": "Sistem Operasi", "sks": 3, "rumpun": "inti", "prasyarat": ["EL2201", "IF2110"] },
+      { "kode": "EL3102", "nama": "Jaringan Komputer", "sks": 3, "rumpun": "inti", "prasyarat": ["EL2101"] },
+      { "kode": "EL3103", "nama": "Praktikum Jaringan Komputer", "sks": 1, "rumpun": "inti", "prasyarat": ["EL3102"] },
+      { "kode": "EL3104", "nama": "Sistem Embedded", "sks": 3, "rumpun": "inti", "prasyarat": ["EL2202"] },
+      { "kode": "EL3105", "nama": "Sistem Kendali", "sks": 3, "rumpun": "inti", "prasyarat": ["EL2101"] },
+      { "kode": "KU2002", "nama": "Agama & Etika", "sks": 2, "rumpun": "umum", "prasyarat": [] }
+    ],
+    [
+      { "kode": "EL3201", "nama": "Desain Sistem VLSI", "sks": 3, "rumpun": "inti", "prasyarat": ["EL2104", "EL2102"] },
+      { "kode": "EL3202", "nama": "Keamanan Informasi & Jaringan", "sks": 3, "rumpun": "inti", "prasyarat": ["EL3102"] },
+      { "kode": "EL3203", "nama": "Interaksi Manusia & Komputer", "sks": 3, "rumpun": "inti", "prasyarat": [] },
+      { "kode": "EL3299", "nama": "Kerja Praktik / Magang", "sks": 2, "rumpun": "inti", "prasyarat": [] },
+      { "kode": "PILIHAN1", "nama": "Mata Kuliah Pilihan I", "sks": 3, "rumpun": "inti", "prasyarat": [] },
+      { "kode": "PILIHAN2", "nama": "Mata Kuliah Pilihan II", "sks": 3, "rumpun": "inti", "prasyarat": [] }
+    ],
+    [
+      { "kode": "EL4101", "nama": "Tugas Akhir I", "sks": 3, "rumpun": "ta", "prasyarat": [] },
+      { "kode": "EL4198", "nama": "Seminar", "sks": 1, "rumpun": "ta", "prasyarat": [] },
+      { "kode": "PILIHAN3", "nama": "Mata Kuliah Pilihan III", "sks": 3, "rumpun": "inti", "prasyarat": [] },
+      { "kode": "PILIHAN4", "nama": "Mata Kuliah Pilihan IV", "sks": 3, "rumpun": "inti", "prasyarat": [] },
+      { "kode": "KU4001", "nama": "Etika Profesi & Kewirausahaan", "sks": 2, "rumpun": "umum", "prasyarat": [] }
+    ],
+    [
+      { "kode": "EL4201", "nama": "Tugas Akhir II", "sks": 4, "rumpun": "ta", "prasyarat": ["EL4101"] },
+      { "kode": "PILIHAN5", "nama": "Mata Kuliah Pilihan V", "sks": 3, "rumpun": "inti", "prasyarat": [] },
+      { "kode": "PILIHAN6", "nama": "Mata Kuliah Pilihan VI", "sks": 3, "rumpun": "inti", "prasyarat": [] }
+    ]
+  ]
+}

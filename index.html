@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Diagram Relasi MK: FTE</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="profile">
+    <h1>Diagram Relasi Mata Kuliah: Fakultas Teknik Elektro</h1>
+    <h2>Universitas Telkom</h2>
+    Sesuaikan dengan program studi Anda: 
+    <select id="prodi-picker" class="prodi-picker" title="Pilih Program Studi"></select>
+    <button id="btn-reset" class="btn-reset" title="Hapus semua nilai & rencana yang sudah diinput">Reset Input</button>
+  </div>
+  <div class="ipk-badge">
+    <div class="val" id="val-ipk">0.00</div>
+    <div class="lbl">Indeks Prestasi Kumulatif (IPK)</div>
+  </div>
+</header>
+<div class="main-grid">
+  <div class="card">
+    <h2>Peta Kurikulum & Status Mata Kuliah</h2>
+    <div class="legend">
+      <span><div class="dot" style="background:var(--r-inti)"></div> Inti Prodi</span>
+      <span><div class="dot" style="background:var(--r-mipa)"></div> MIPA/Dasar</span>
+      <span><div class="dot" style="background:var(--r-umum)"></div> Umum</span>
+      <span><div class="dot" style="background:var(--r-ta)"></div> Tugas Akhir</span>
+      <span><div class="dot" style="border:2px solid var(--success)"></div> Lulus</span>
+      <span><div class="dot" style="border:2px solid var(--danger)"></div> Wajib Ulang</span>
+    </div>
+    <div class="planner-banner">
+      <strong>Kalkulator SKS:</strong> Klik MK untuk input nilai. Shift+Klik untuk centang rencana ambil semester depan.
+    </div>
+    <div class="kurikulum-container" id="kurikulum-view"></div>
+  </div>
+  <div class="sidebar">
+    <div class="card">
+      <h2>Ringkasan Akademik</h2>
+      <div class="stat-box"><span>SKS Lulus</span><span class="val" id="stat-sks-lulus">0 / 144</span></div>
+      <div class="stat-box"><span>Jatah SKS (Max)</span><span class="val" id="stat-jatah-sks">20</span></div>
+      <div class="stat-box"><span>SKS Direncanakan</span><span class="val" id="stat-sks-plan" style="color:var(--warning)">0</span></div>
+    </div>
+    <div class="card">
+      <h2>Mata Kuliah Nilai D & E (<span id="count-de">0</span>)</h2>
+      <div class="list-de" id="list-de"></div>
+    </div>
+    <div class="card">
+      <h2>IP per Semester</h2>
+      <div id="ip-semester-list" style="display:flex; flex-direction:column; gap:6px; font-size:0.85rem;"></div>
+    </div>
+  </div>
+</div>
+<div class="modal-overlay" id="modal">
+  <div class="modal">
+    <h3 id="modal-title">Pilih Nilai</h3>
+    <div class="grade-grid">
+      <button class="btn-grade" onclick="setNilai('A')">A</button>
+      <button class="btn-grade" onclick="setNilai('AB')">AB</button>
+      <button class="btn-grade" onclick="setNilai('B')">B</button>
+      <button class="btn-grade" onclick="setNilai('BC')">BC</button>
+      <button class="btn-grade" onclick="setNilai('C')">C</button>
+      <button class="btn-grade" onclick="setNilai('D')">D</button>
+      <button class="btn-grade" onclick="setNilai('E')">E</button>
+      <button class="btn-grade" onclick="setNilai(null)" style="color:var(--danger)">Hapus</button>
+    </div>
+    <button class="btn-close" onclick="closeModal()">Tutup</button>
+  </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
