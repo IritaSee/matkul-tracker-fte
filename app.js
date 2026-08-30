@@ -4,7 +4,32 @@ const PRODI_LIST = [
   { file: 'teknik-biomedis.json', label: 'S1 Teknik Biomedis' }
 ];
 
+(function initTheme() {
+  const saved = localStorage.getItem('matkul_theme');
+  if (saved === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+})();
+
 document.addEventListener('DOMContentLoaded', () => {
+  const btnTheme = document.getElementById('btn-theme');
+  function syncThemeLabel() {
+    const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+    if (btnTheme) btnTheme.textContent = isDark ? '☀️ Mode Terang' : '🌙 Mode Gelap';
+  }
+  if (btnTheme) {
+    btnTheme.addEventListener('click', () => {
+      const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+      if (isDark) {
+        document.documentElement.removeAttribute('data-theme');
+        localStorage.setItem('matkul_theme', 'light');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('matkul_theme', 'dark');
+      }
+      syncThemeLabel();
+    });
+  }
+  syncThemeLabel();
+
   const gradeValues = { 'A': 4.0, 'AB': 3.5, 'B': 3.0, 'BC': 2.5, 'C': 2.0, 'D': 1.0, 'E': 0.0 };
   let userGrades = {};
   let plannedCourses = {};
