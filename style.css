@@ -45,7 +45,7 @@ header { background: var(--card); border: 1px solid var(--card-border); border-r
 .card { background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 20px; }
 h2 { font-size: 1.1rem; margin-bottom: 15px; border-bottom: 1px solid var(--card-border); padding-bottom: 10px; }
 .kurikulum-container { position: relative; overflow-x: auto; padding-bottom: 20px; display: flex; flex-direction: column-reverse; }
-.sem-row { display: grid; grid-template-columns: 100px repeat(8, 1fr); gap: 10px; margin-bottom: 12px; align-items: center; min-width: 900px; position: relative; z-index: 1; }
+.sem-row { display: grid; grid-template-columns: 100px repeat(9, 1fr); gap: 3px; margin-bottom: 12px; align-items: center; min-width: 900px; position: relative; z-index: 1; }
 svg.edges { position: absolute; top: 0; left: 0; pointer-events: none; z-index: 0; }
 .edge-path { fill: none; stroke: var(--text-muted); stroke-width: 1.5; opacity: 0.35; transition: opacity 0.15s, stroke 0.15s, stroke-width 0.15s; }
 .edge-path.active { stroke: var(--accent); stroke-width: 2.5; opacity: 1; }
