@@ -3,14 +3,14 @@
   "totalSks": 149,
   "semesters": [
     [
-      { "kode": "BM1001", "nama": "Dasar Anatomi dan Fisiologi", "sks": 3, "rumpun": "mipa", "prasyarat": [] },
+      { "kode": "BM1001", "nama": "Anatomi & Fisiologi", "sks": 3, "rumpun": "mipa", "prasyarat": [] },
       { "kode": "KU1001", "nama": "Agama", "sks": 2, "rumpun": "umum", "prasyarat": [] },
       { "kode": "KI1001", "nama": "Kimia", "sks": 3, "rumpun": "mipa", "prasyarat": [] },
-      { "kode": "BM1002", "nama": "Pengenalan Teknik Biomedis", "sks": 2, "rumpun": "inti", "prasyarat": [] },
+      { "kode": "BM1002", "nama": "Pengenalan TB", "sks": 2, "rumpun": "inti", "prasyarat": [] },
       { "kode": "KU1002", "nama": "HEI", "sks": 1, "rumpun": "umum", "prasyarat": [] },
       { "kode": "MA1001", "nama": "Kalkulus 1", "sks": 4, "rumpun": "mipa", "prasyarat": [] },
       { "kode": "FI1001", "nama": "Fisika 1", "sks": 3, "rumpun": "mipa", "prasyarat": [] },
-      { "kode": "FI1002", "nama": "Praktikum Fisika 1", "sks": 1, "rumpun": "mipa", "prasyarat": [] },
+      { "kode": "FI1002", "nama": "Prak. Fisika 1", "sks": 1, "rumpun": "mipa", "prasyarat": [] },
       { "kode": "KU1003", "nama": "Pancasila", "sks": 2, "rumpun": "umum", "prasyarat": [] }
     ],
     [
@@ -20,13 +20,13 @@
       { "kode": "FI1003", "nama": "Prak. Fisika 2", "sks": 1, "rumpun": "mipa", "prasyarat": ["FI1002"] },
       { "kode": "MA1003", "nama": "Kalkulus 2", "sks": 4, "rumpun": "mipa", "prasyarat": ["MA1001"] },
       { "kode": "FI1004", "nama": "Fisika 2", "sks": 3, "rumpun": "mipa", "prasyarat": ["FI1001"] },
-      { "kode": "IF1001", "nama": "Algoritma dan Pemrograman", "sks": 3, "rumpun": "inti", "prasyarat": [] },
-      { "kode": "IF1002", "nama": "Praktikum Algoritma dan Pemrograman", "sks": 1, "rumpun": "inti", "prasyarat": [] }
+      { "kode": "IF1001", "nama": "AlPro", "sks": 3, "rumpun": "inti", "prasyarat": [] },
+      { "kode": "IF1002", "nama": "Prak. AlPro", "sks": 1, "rumpun": "inti", "prasyarat": [] }
     ],
     [
       { "kode": "BM2001", "nama": "Prak. Teknik Biomedis 1", "sks": 1, "rumpun": "inti", "prasyarat": [] },
-      { "kode": "MA2001", "nama": "Probabilitas dan Statistika", "sks": 2, "rumpun": "mipa", "prasyarat": ["MA1003"] },
-      { "kode": "BM2002", "nama": "Pengolahan Data Biomedis", "sks": 3, "rumpun": "inti", "prasyarat": ["IF1001"] },
+      { "kode": "MA2001", "nama": "ProbStat", "sks": 2, "rumpun": "mipa", "prasyarat": ["MA1003"] },
+      { "kode": "BM2002", "nama": "Peng. Data Biomedis", "sks": 3, "rumpun": "inti", "prasyarat": ["IF1001"] },
       { "kode": "MA2002", "nama": "Variabel Kompleks", "sks": 2, "rumpun": "mipa", "prasyarat": ["MA1003"] },
       { "kode": "BM2003", "nama": "Teknik Digital", "sks": 3, "rumpun": "inti", "prasyarat": ["IF1001"] },
       { "kode": "BM2004", "nama": "Fisika biomedis", "sks": 3, "rumpun": "inti", "prasyarat": ["FI1004", "BM1001"] },
@@ -34,14 +34,14 @@
       { "kode": "BM2005", "nama": "Rangkaian Listrik", "sks": 3, "rumpun": "inti", "prasyarat": ["FI1004"] }
     ],
     [
-      { "kode": "BM2006", "nama": "Praktikum Teknik Biomedis 2", "sks": 1, "rumpun": "inti", "prasyarat": ["BM2001"] },
+      { "kode": "BM2006", "nama": "Prak. Teknik Biomedis 2", "sks": 1, "rumpun": "inti", "prasyarat": ["BM2001"] },
       { "kode": "BM2007", "nama": "Pengolahan Sinyal Waktu Kontinu", "sks": 3, "rumpun": "inti", "prasyarat": ["MA1003"] },
       { "kode": "BM2008", "nama": "Kecerdasan Buatan", "sks": 3, "rumpun": "inti", "prasyarat": ["BM2002", "MA2001"] },
       { "kode": "BM2009", "nama": "Elektromagnetika", "sks": 3, "rumpun": "inti", "prasyarat": ["FI1004", "MA1003"] },
       { "kode": "BM2010", "nama": "Mikrokomputer dan Antarmuka", "sks": 3, "rumpun": "inti", "prasyarat": ["BM2003"] },
       { "kode": "MA2003", "nama": "Persamaan Diferensial", "sks": 3, "rumpun": "mipa", "prasyarat": ["MA1003"] },
       { "kode": "BM2011", "nama": "Elektronika", "sks": 3, "rumpun": "inti", "prasyarat": ["BM2005"] },
-      { "kode": "IF2002", "nama": "Praktikum Pemrograman Lanjut", "sks": 1, "rumpun": "inti", "prasyarat": ["IF2001"] }
+      { "kode": "IF2002", "nama": "Prak. Pemrograman Lanjut", "sks": 1, "rumpun": "inti", "prasyarat": ["IF2001"] }
     ],
     [
       { "kode": "KU3001", "nama": "Manajemen Proyek", "sks": 2, "rumpun": "umum", "prasyarat": [] },
@@ -51,15 +51,15 @@
       { "kode": "BM3003", "nama": "IoT Biomedis", "sks": 3, "rumpun": "inti", "prasyarat": ["BM2010"] },
       { "kode": "BM3004", "nama": "Pengukuran dan Instrumentasi Biomedis", "sks": 3, "rumpun": "inti", "prasyarat": ["BM2011", "MA2003"] },
       { "kode": "BM3005", "nama": "Biomekanika", "sks": 3, "rumpun": "inti", "prasyarat": ["BM2004"] },
-      { "kode": "BM3006", "nama": "Praktikum Teknik Biomedis 3", "sks": 1, "rumpun": "inti", "prasyarat": ["BM2006"] }
+      { "kode": "BM3006", "nama": "Prak. Teknik Biomedis 3", "sks": 1, "rumpun": "inti", "prasyarat": ["BM2006"] }
     ],
     [
-      { "kode": "BM3007", "nama": "Etika dan Regulasi dalam Teknik Biomedis", "sks": 2, "rumpun": "umum", "prasyarat": [] },
+      { "kode": "BM3007", "nama": "Etika dan Regulasi dalam TB", "sks": 2, "rumpun": "umum", "prasyarat": [] },
       { "kode": "KU3003", "nama": "Bahasa Indonesia", "sks": 2, "rumpun": "umum", "prasyarat": [] },
       { "kode": "BM3008", "nama": "Proyek Perancangan Terintegrasi", "sks": 3, "rumpun": "ta", "prasyarat": ["BM3002", "BM3003", "BM3004"] },
-      { "kode": "PILIHAN1", "nama": "Mata Kuliah Pilihan I", "sks": 3, "rumpun": "inti", "prasyarat": [] },
-      { "kode": "PILIHAN2", "nama": "Mata Kuliah Pilihan II", "sks": 3, "rumpun": "inti", "prasyarat": [] },
-      { "kode": "PILIHAN3", "nama": "Mata Kuliah Pilihan III", "sks": 3, "rumpun": "inti", "prasyarat": [] },
+      { "kode": "PILIHAN1", "nama": "M.K. Pilihan I", "sks": 3, "rumpun": "inti", "prasyarat": [] },
+      { "kode": "PILIHAN2", "nama": "M.K. Pilihan II", "sks": 3, "rumpun": "inti", "prasyarat": [] },
+      { "kode": "PILIHAN3", "nama": "M.K. Pilihan III", "sks": 3, "rumpun": "inti", "prasyarat": [] },
       { "kode": "KU3004", "nama": "Kerja Praktek", "sks": 2, "rumpun": "umum", "prasyarat": [] },
       { "kode": "KU3005", "nama": "Literasi Manusia", "sks": 2, "rumpun": "umum", "prasyarat": [] }
     ],
@@ -68,14 +68,14 @@
       { "kode": "BM4001", "nama": "Pra-Tugas Akhir", "sks": 2, "rumpun": "ta", "prasyarat": ["BM3008"] },
       { "kode": "KU4002", "nama": "Kewarganegaraan", "sks": 2, "rumpun": "umum", "prasyarat": [] },
       { "kode": "KU4003", "nama": "Bahasa Inggris", "sks": 2, "rumpun": "umum", "prasyarat": [] },
-      { "kode": "KU4004", "nama": "Kesehatan, Keselamatan, dan Manajemen Lingkungan", "sks": 2, "rumpun": "umum", "prasyarat": [] },
-      { "kode": "PILIHAN4", "nama": "Mata Kuliah Pilihan IV", "sks": 3, "rumpun": "inti", "prasyarat": [] },
-      { "kode": "PILIHAN5", "nama": "Mata Kuliah Pilihan V", "sks": 3, "rumpun": "inti", "prasyarat": [] },
-      { "kode": "PILIHAN6", "nama": "Mata Kuliah Pilihan VI", "sks": 3, "rumpun": "inti", "prasyarat": [] },
-      { "kode": "PILIHAN7", "nama": "Mata Kuliah Pilihan VII", "sks": 3, "rumpun": "inti", "prasyarat": [] }
+      { "kode": "KU4004", "nama": "K2ML", "sks": 2, "rumpun": "umum", "prasyarat": [] },
+      { "kode": "PILIHAN4", "nama": "M.K. Pilihan IV", "sks": 3, "rumpun": "inti", "prasyarat": [] },
+      { "kode": "PILIHAN5", "nama": "M.K. Pilihan V", "sks": 3, "rumpun": "inti", "prasyarat": [] },
+      { "kode": "PILIHAN6", "nama": "M.K. Pilihan VI", "sks": 3, "rumpun": "inti", "prasyarat": [] },
+      { "kode": "PILIHAN7", "nama": "M.K. Pilihan VII", "sks": 3, "rumpun": "inti", "prasyarat": [] }
     ],
     [
-      { "kode": "PILIHAN8", "nama": "Mata Kuliah Pilihan VIII", "sks": 3, "rumpun": "inti", "prasyarat": [] },
+      { "kode": "PILIHAN8", "nama": "M.K. Pilihan VIII", "sks": 3, "rumpun": "inti", "prasyarat": [] },
       { "kode": "BM4002", "nama": "Tugas Akhir", "sks": 4, "rumpun": "ta", "prasyarat": ["BM4001"] }
     ]
   ]
