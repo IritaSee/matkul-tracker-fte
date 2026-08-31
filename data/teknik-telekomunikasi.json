@@ -1,0 +1,80 @@
+{
+  "prodi": "S1 Teknik Telekomunikasi",
+  "totalSks": 144,
+  "semesters": [
+    [
+      { "kode": "TT1001", "nama": "PTT", "sks": 2, "rumpun": "inti", "prasyarat": [] },
+      { "kode": "FI1001", "nama": "Fisika 1", "sks": 3, "rumpun": "mipa", "prasyarat": [] },
+      { "kode": "TT1002", "nama": "PRD", "sks": 3, "rumpun": "inti", "prasyarat": [] },
+      { "kode": "MA1001", "nama": "Kalkulus 1", "sks": 3, "rumpun": "mipa", "prasyarat": [] },
+      { "kode": "KU1001", "nama": "Pancasila", "sks": 2, "rumpun": "umum", "prasyarat": [] },
+      { "kode": "KI1001", "nama": "Kimia", "sks": 3, "rumpun": "mipa", "prasyarat": [] },
+      { "kode": "KU1002", "nama": "Internalisasi Budaya & Karakter", "sks": 1, "rumpun": "umum", "prasyarat": [] },
+      { "kode": "FI1002", "nama": "Prak Fisika 1", "sks": 1, "rumpun": "mipa", "prasyarat": [] }
+    ],
+    [
+      { "kode": "KU1003", "nama": "Agama", "sks": 2, "rumpun": "umum", "prasyarat": [] },
+      { "kode": "FI1003", "nama": "Fisika 2", "sks": 3, "rumpun": "mipa", "prasyarat": ["FI1001"] },
+      { "kode": "MA1002", "nama": "Aljabar Linier", "sks": 3, "rumpun": "mipa", "prasyarat": [] },
+      { "kode": "MA1003", "nama": "Kalkulus 2", "sks": 3, "rumpun": "mipa", "prasyarat": ["MA1001"] },
+      { "kode": "MA1004", "nama": "Matdis", "sks": 3, "rumpun": "mipa", "prasyarat": [] },
+      { "kode": "IF1001", "nama": "Alpro", "sks": 3, "rumpun": "inti", "prasyarat": [] },
+      { "kode": "IF1002", "nama": "Prak Alpro", "sks": 1, "rumpun": "inti", "prasyarat": [] },
+      { "kode": "FI1004", "nama": "Prak Fisika 2", "sks": 1, "rumpun": "mipa", "prasyarat": ["FI1002"] }
+    ],
+    [
+      { "kode": "TT2001", "nama": "JTT", "sks": 3, "rumpun": "inti", "prasyarat": ["TT1001"] },
+      { "kode": "MA2001", "nama": "Probstat", "sks": 3, "rumpun": "mipa", "prasyarat": ["MA1003"] },
+      { "kode": "MA2002", "nama": "Pers Diff", "sks": 3, "rumpun": "mipa", "prasyarat": ["MA1003"] },
+      { "kode": "MA2003", "nama": "Varkom", "sks": 3, "rumpun": "mipa", "prasyarat": ["MA1003"] },
+      { "kode": "TT2002", "nama": "RL", "sks": 3, "rumpun": "inti", "prasyarat": ["FI1003"] },
+      { "kode": "IF2001", "nama": "Pemrograman Python", "sks": 2, "rumpun": "inti", "prasyarat": ["IF1001"] },
+      { "kode": "TT2003", "nama": "AI dan Big Data", "sks": 3, "rumpun": "inti", "prasyarat": ["IF2001"] },
+      { "kode": "TT2004", "nama": "Prak TT I", "sks": 1, "rumpun": "inti", "prasyarat": [] }
+    ],
+    [
+      { "kode": "TT2005", "nama": "Jarkomdat", "sks": 3, "rumpun": "inti", "prasyarat": ["TT2001"] },
+      { "kode": "TT2006", "nama": "Teknik Digital", "sks": 3, "rumpun": "inti", "prasyarat": [] },
+      { "kode": "TT2007", "nama": "Elmag", "sks": 3, "rumpun": "inti", "prasyarat": ["FI1003", "MA2003"] },
+      { "kode": "TT2008", "nama": "Pswk", "sks": 3, "rumpun": "inti", "prasyarat": ["TT2002"] },
+      { "kode": "TT2009", "nama": "Elektronika", "sks": 3, "rumpun": "inti", "prasyarat": ["TT2002"] },
+      { "kode": "TT2010", "nama": "Prak TT II", "sks": 1, "rumpun": "inti", "prasyarat": ["TT2004"] }
+    ],
+    [
+      { "kode": "KU3001", "nama": "Kewirausahaan", "sks": 2, "rumpun": "umum", "prasyarat": [] },
+      { "kode": "TT3001", "nama": "Kamdat & Blockchain", "sks": 3, "rumpun": "inti", "prasyarat": ["TT2005"] },
+      { "kode": "TT3002", "nama": "Siskom 1", "sks": 3, "rumpun": "inti", "prasyarat": ["TT2005", "MA2001"] },
+      { "kode": "TT3003", "nama": "Pswd", "sks": 3, "rumpun": "inti", "prasyarat": ["TT2008"] },
+      { "kode": "TT3004", "nama": "Elmagtel", "sks": 2, "rumpun": "inti", "prasyarat": ["TT2007"] },
+      { "kode": "KU3002", "nama": "Bahasa Indonesia", "sks": 2, "rumpun": "umum", "prasyarat": [] },
+      { "kode": "KU3003", "nama": "Manpro", "sks": 3, "rumpun": "umum", "prasyarat": [] },
+      { "kode": "TT3005", "nama": "Prak TT III", "sks": 1, "rumpun": "inti", "prasyarat": ["TT2010"] }
+    ],
+    [
+      { "kode": "TT3006", "nama": "Mikro & IOT", "sks": 3, "rumpun": "inti", "prasyarat": ["TT2006", "TT3002"] },
+      { "kode": "TT3007", "nama": "Siskom Optik", "sks": 3, "rumpun": "inti", "prasyarat": ["TT3002"] },
+      { "kode": "TT3008", "nama": "Siskom 2", "sks": 3, "rumpun": "inti", "prasyarat": ["TT3002"] },
+      { "kode": "TT3009", "nama": "Elka RF", "sks": 3, "rumpun": "inti", "prasyarat": ["TT3003", "TT3009"] },
+      { "kode": "TT3010", "nama": "Teknik Antena", "sks": 2, "rumpun": "inti", "prasyarat": ["TT2007"] },
+      { "kode": "KU3004", "nama": "Studium General", "sks": 2, "rumpun": "umum", "prasyarat": [] },
+      { "kode": "KU3005", "nama": "KP / KKN", "sks": 2, "rumpun": "umum", "prasyarat": [] },
+      { "kode": "TT3011", "nama": "Prak TT IV", "sks": 1, "rumpun": "inti", "prasyarat": ["TT3005"] }
+    ],
+    [
+      { "kode": "KU4001", "nama": "Bahasa Inggris", "sks": 2, "rumpun": "umum", "prasyarat": [] },
+      { "kode": "TT4001", "nama": "Proposal TA", "sks": 2, "rumpun": "ta", "prasyarat": [] },
+      { "kode": "KU4002", "nama": "Kewarganegaraan", "sks": 3, "rumpun": "umum", "prasyarat": [] },
+      { "kode": "KU4003", "nama": "Literatur Manusia", "sks": 2, "rumpun": "umum", "prasyarat": [] },
+      { "kode": "TT4002", "nama": "Siskomsel", "sks": 3, "rumpun": "inti", "prasyarat": ["TT3002"] },
+      { "kode": "PILIHAN1", "nama": "MK Pilihan #1", "sks": 3, "rumpun": "inti", "prasyarat": [] },
+      { "kode": "PILIHAN2", "nama": "MK Pilihan #2", "sks": 3, "rumpun": "inti", "prasyarat": [] },
+      { "kode": "PILIHAN3", "nama": "MK Pilihan #3", "sks": 3, "rumpun": "inti", "prasyarat": [] },
+      { "kode": "PILIHAN4", "nama": "MK Pilihan #4", "sks": 3, "rumpun": "inti", "prasyarat": [] }
+    ],
+    [
+      { "kode": "TT4003", "nama": "Tugas Akhir", "sks": 4, "rumpun": "ta", "prasyarat": ["TT4001"] },
+      { "kode": "PILIHAN5", "nama": "MK Pilihan #5", "sks": 3, "rumpun": "inti", "prasyarat": [] },
+      { "kode": "PILIHAN6", "nama": "MK Pilihan #6", "sks": 3, "rumpun": "inti", "prasyarat": [] }
+    ]
+  ]
+}

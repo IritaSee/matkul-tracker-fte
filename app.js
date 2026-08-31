@@ -1,7 +1,11 @@
 // Prodi picker: tambah entri di sini untuk daftar prodi baru.
 const PRODI_LIST = [
   { file: 'teknik-komputer.json', label: 'S1 Teknik Komputer' },
-  { file: 'teknik-biomedis.json', label: 'S1 Teknik Biomedis' }
+  { file: 'teknik-biomedis.json', label: 'S1 Teknik Biomedis' },
+  { file: 'teknik-telekomunikasi.json', label: 'S1 Teknik Telekomunikasi' },
+  { file: 'teknik-fisika.json', label: 'S1 Teknik Fisika' },
+  { file: 'teknik-elektro.json', label: 'S1 Teknik Elektro' },
+  { file: 'teknik-sistem-energi.json', label: 'S1 Teknik Sistem Energi' }
 ];
 
 (function initTheme() {
