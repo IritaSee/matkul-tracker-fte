@@ -1,0 +1,82 @@
+{
+  "prodi": "S1 Teknik Elektro",
+  "totalSks": 144,
+  "semesters": [
+    [
+      { "kode": "KU1101", "nama": "Internalisasi Budaya dan Pembentukan Karakter", "sks": 1, "rumpun": "umum", "prasyarat": [] },
+      { "kode": "FI1101", "nama": "Fisika 1", "sks": 3, "rumpun": "mipa", "prasyarat": [] },
+      { "kode": "FI1102", "nama": "Praktikum Fisika 1", "sks": 1, "rumpun": "mipa", "prasyarat": [] },
+      { "kode": "MA1101", "nama": "Kalkulus 1", "sks": 3, "rumpun": "mipa", "prasyarat": [] },
+      { "kode": "EL1101", "nama": "Pengantar Rekayasa dan Desain", "sks": 3, "rumpun": "inti", "prasyarat": [] },
+      { "kode": "MA1102", "nama": "Matematika Diskrit", "sks": 3, "rumpun": "mipa", "prasyarat": [] },
+      { "kode": "IF1101", "nama": "Algoritma dan Pemrograman", "sks": 3, "rumpun": "inti", "prasyarat": [] },
+      { "kode": "IF1102", "nama": "Praktikum Algoritma dan Pemrograman", "sks": 1, "rumpun": "inti", "prasyarat": [] }
+    ],
+    [
+      { "kode": "MA1201", "nama": "Kalkulus 2", "sks": 3, "rumpun": "mipa", "prasyarat": ["MA1101"] },
+      { "kode": "MA1202", "nama": "Variabel Kompleks", "sks": 3, "rumpun": "mipa", "prasyarat": [] },
+      { "kode": "FI1201", "nama": "Fisika 2A", "sks": 3, "rumpun": "mipa", "prasyarat": ["FI1101"] },
+      { "kode": "FI1202", "nama": "Praktikum Fisika 2", "sks": 1, "rumpun": "mipa", "prasyarat": ["FI1102"] },
+      { "kode": "EL1201", "nama": "Rangkaian Listrik 1", "sks": 3, "rumpun": "inti", "prasyarat": [] },
+      { "kode": "MA1203", "nama": "Aljabar Linier", "sks": 3, "rumpun": "mipa", "prasyarat": [] },
+      { "kode": "EL1202", "nama": "Teknik Digital", "sks": 3, "rumpun": "inti", "prasyarat": [] }
+    ],
+    [
+      { "kode": "MA2101", "nama": "Persamaan Diferensial", "sks": 3, "rumpun": "mipa", "prasyarat": ["MA1201"] },
+      { "kode": "MA2102", "nama": "Probabilitas dan Statistika", "sks": 3, "rumpun": "mipa", "prasyarat": [] },
+      { "kode": "EL2101", "nama": "Elektromagnetika", "sks": 3, "rumpun": "inti", "prasyarat": [] },
+      { "kode": "EL2102", "nama": "Praktikum Teknik Digital & Mikrokomputer", "sks": 1, "rumpun": "inti", "prasyarat": [] },
+      { "kode": "EL2103", "nama": "Praktikum Rangkaian Listrik", "sks": 1, "rumpun": "inti", "prasyarat": [] },
+      { "kode": "EL2104", "nama": "Rangkaian Listrik 2", "sks": 3, "rumpun": "inti", "prasyarat": ["EL1201"] },
+      { "kode": "FI2101", "nama": "Fisika 3A", "sks": 2, "rumpun": "mipa", "prasyarat": [] },
+      { "kode": "EL2105", "nama": "Mikrokomputer", "sks": 3, "rumpun": "inti", "prasyarat": ["EL1202"] }
+    ],
+    [
+      { "kode": "EL2201", "nama": "Sinyal dan Sistem Waktu Kontinu", "sks": 3, "rumpun": "inti", "prasyarat": [] },
+      { "kode": "EL2202", "nama": "Elektronika 1", "sks": 3, "rumpun": "inti", "prasyarat": [] },
+      { "kode": "EL2203", "nama": "Sensor dan Aktuator", "sks": 3, "rumpun": "inti", "prasyarat": [] },
+      { "kode": "EL2204", "nama": "Praktikum Sistem Sensor & Kendali", "sks": 1, "rumpun": "inti", "prasyarat": [] },
+      { "kode": "EL2205", "nama": "Sistem Telekomunikasi", "sks": 3, "rumpun": "inti", "prasyarat": [] },
+      { "kode": "EL2206", "nama": "Praktikum Elektronika 1", "sks": 1, "rumpun": "inti", "prasyarat": [] },
+      { "kode": "EL2207", "nama": "Sistem Kendali", "sks": 3, "rumpun": "inti", "prasyarat": [] },
+      { "kode": "EL2208", "nama": "Teknik Pengukuran dan Akuisisi Data", "sks": 3, "rumpun": "inti", "prasyarat": [] }
+    ],
+    [
+      { "kode": "EL3101", "nama": "Elektronika 2", "sks": 3, "rumpun": "inti", "prasyarat": ["EL2202"] },
+      { "kode": "EL3102", "nama": "Otomatisasi Industri", "sks": 3, "rumpun": "inti", "prasyarat": [] },
+      { "kode": "EL3103", "nama": "Sistem IoT", "sks": 3, "rumpun": "inti", "prasyarat": [] },
+      { "kode": "EL3104", "nama": "Sistem Tertanam", "sks": 2, "rumpun": "inti", "prasyarat": [] },
+      { "kode": "EL3105", "nama": "Praktikum Sinyal Diskrit, Otomatisasi, & IoT", "sks": 1, "rumpun": "inti", "prasyarat": ["EL1102", "EL2103"] },
+      { "kode": "EL3106", "nama": "Kecerdasan Buatan", "sks": 3, "rumpun": "inti", "prasyarat": [] },
+      { "kode": "EL3107", "nama": "Sinyal dan Sistem Waktu Diskrit", "sks": 3, "rumpun": "inti", "prasyarat": ["EL2201"] },
+      { "kode": "EL3108", "nama": "Sistem Tenaga", "sks": 2, "rumpun": "inti", "prasyarat": [] }
+    ],
+    [
+      { "kode": "EL3201", "nama": "Robotika", "sks": 3, "rumpun": "inti", "prasyarat": ["EL3101"] },
+      { "kode": "EL3202", "nama": "Proyek Perancangan Terintegrasi", "sks": 5, "rumpun": "inti", "prasyarat": ["EL3103", "EL3102", "EL2102"] },
+      { "kode": "KU3201", "nama": "Kerja Praktik / KKN", "sks": 2, "rumpun": "umum", "prasyarat": [] },
+      { "kode": "KU3202", "nama": "Manajemen Proyek", "sks": 3, "rumpun": "umum", "prasyarat": [] },
+      { "kode": "KU3203", "nama": "Literasi Data", "sks": 2, "rumpun": "umum", "prasyarat": [] },
+      { "kode": "KU3204", "nama": "Literasi Manusia", "sks": 2, "rumpun": "umum", "prasyarat": [] },
+      { "kode": "KU3205", "nama": "Pancasila", "sks": 2, "rumpun": "umum", "prasyarat": [] }
+    ],
+    [
+      { "kode": "EL4101", "nama": "Metode Riset dan Pengembangan Produk", "sks": 3, "rumpun": "ta", "prasyarat": [] },
+      { "kode": "PILIHAN1", "nama": "MK Pilihan 1", "sks": 3, "rumpun": "inti", "prasyarat": [] },
+      { "kode": "KU4101", "nama": "Pendidikan Kewarganegaraan", "sks": 3, "rumpun": "umum", "prasyarat": [] },
+      { "kode": "KU4102", "nama": "Bahasa Indonesia", "sks": 2, "rumpun": "umum", "prasyarat": [] },
+      { "kode": "KU4103", "nama": "Ekonomi Kelayakan dan Perencanaan Bisnis", "sks": 2, "rumpun": "umum", "prasyarat": [] },
+      { "kode": "KU4104", "nama": "Bahasa Inggris", "sks": 2, "rumpun": "umum", "prasyarat": [] },
+      { "kode": "KU4105", "nama": "Agama", "sks": 2, "rumpun": "umum", "prasyarat": [] },
+      { "kode": "KU4106", "nama": "Studium Generale", "sks": 2, "rumpun": "umum", "prasyarat": [] },
+      { "kode": "KU4107", "nama": "Kewirausahaan", "sks": 2, "rumpun": "umum", "prasyarat": [] }
+    ],
+    [
+      { "kode": "EL4201", "nama": "Tugas Akhir", "sks": 4, "rumpun": "ta", "prasyarat": ["EL4101"] },
+      { "kode": "PILIHAN2", "nama": "MK Pilihan 2", "sks": 3, "rumpun": "inti", "prasyarat": [] },
+      { "kode": "PILIHAN3", "nama": "MK Pilihan 3", "sks": 3, "rumpun": "inti", "prasyarat": [] }
+    ]
+  ]
+}
+
+
